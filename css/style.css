@@ -1,0 +1,162 @@
+#wrap {
+    background: rgb(255, 101, 101);
+    margin: auto;
+    width: 900px;
+    height: auto;
+}
+
+#header {
+    background: url(../images/header.jpg);
+    height: 200px;
+    width: 100%;
+}
+
+#logo {
+    padding: 20px 0 0 50px;
+}
+
+#menu_top {
+    margin-top: 70px;
+    margin-left: 30px;
+    background: white;
+    height: 40px;
+    opacity: 0.6;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.level1 {
+    clear: both;
+    list-style-type: none;
+    padding-top: 12px;
+    opacity: 1.2;
+    color: red;
+    position: relative;
+}
+
+.level1 li {
+    display: inline;
+    float: left;
+    padding: 0px 30px 0px 0px;
+    height: 27px;
+    font-weight: bold;
+}
+
+.level1 li a,
+.level1 li a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.level1 li a:hover {
+    color: green;
+}
+
+.level2 {
+    display: none;
+    position: absolute;
+    padding: 0px;
+    margin-top: 5px;
+}
+
+.level1 li:hover>.level2 {
+    display: block;
+}
+
+.level2 li {
+    float: none;
+    position: relative;
+    display: block;
+    padding: 10px;
+    height: auto;
+    background: gray;
+}
+
+.level2 li:hover {
+    background: #CC0;
+}
+
+#welcome {
+    background: white;
+    padding: 8px;
+    vertical-align: middle;
+    border: dotted 2px #9C0;
+    font-weight: bold;
+}
+
+#center_content #left {
+    width: 500px;
+    min-height: 200px;
+    float: left;
+}
+
+.title {
+    color: #b81f22;
+    font-size: 17px;
+    float: left;
+    margin: 10px 10px 10px 15px;
+}
+
+.product {
+    border-bottom: dashed 1px #ccc;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.product .img {
+    clear: both;
+    float: left;
+    margin-left: 20px;
+}
+
+.product .desciption {
+    float: right;
+    width: 295px;
+    padding: 5px 15px;
+    border: solid 1px #ddd;
+    border-radius: 5px;
+}
+
+.product .name {
+    color: #b81f22;
+    font-weight: bold;
+}
+
+.product .about {
+    text-align: justify;
+}
+
+#center_content #right {
+    width: 380px;
+    min-height: 200px;
+    float: right;
+}
+
+#promotion {
+    float: left;
+    width: 170px;
+}
+
+.product_small {
+    margin-bottom: 15px;
+}
+
+.product_small .naame {
+    text-align: center;
+    color: #666;
+}
+
+.product_small .img {
+    border-radius: 5px;
+    border: solid 1px #ddd;
+    text-align: center;
+    padding: 10px;
+    width: 132px;
+    float: left;
+}
+
+#footer{
+    background-color: #666;
+    height: 200px;
+    width: 100%;
+}
