@@ -1,9 +1,9 @@
 <?php
-$host = "ec2-34-236-103-63.compute-1.amazonaws.com";      // Change this if your PostgreSQL server is running on a different host
+$host = "ec2-52-2-167-43.compute-1.amazonaws.com";      // Change this if your PostgreSQL server is running on a different host
 $port = "5432";           // Change this if your PostgreSQL server is using a different port
-$dbname = "dcljkn9969g8si";
-$user = "iomiqwbnnigjwo";
-$password = "7a873b91d11c2853ff776dbc933992eea722b35beba4fb224a964763dc0481b9";
+$dbname = "db8kcirniejsr8";
+$user = "hihuqumtalddnt";
+$password = "51d5997a22bf94a9c5f91377eabb63b98d70cf9c806fb1525758e423a34b68ad";
 
 // Connect to the PostgreSQL database
 $conn = pg_connect("host=$host port=$port dbname=$dbname user=$user password=$password");
